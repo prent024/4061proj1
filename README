@@ -9,3 +9,4 @@ This is done in the following steps:
 2. Find the dependencies after the ":" listed for each target and call parse_file with each dependency
 
 3. Execute any terminal commands following your target until reaching "end" or EOF
+Changed for Su
