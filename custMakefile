@@ -1,0 +1,25 @@
+all: main fake
+	echo ALL DOES SOMETHING
+end
+
+main: util
+    echo Compile main
+    echo Stahp
+end
+
+util: parseutil
+    echo Compile util 
+end
+
+parseutil:
+    echo Start
+    echo Compile parseutil
+end
+
+fake:
+end
+
+clean:
+    echo Clean object files
+    echo Clean executable
+end
